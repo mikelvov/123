@@ -1,0 +1,14 @@
+http://localhost/Tools/phpMyAdmin/
+
+SHOW DATABASES;
+SHOW tables in information_scema;
+
+USE first;
+SELECT * FROM first_table;
+
+INSERT INTO first_table (name, email) VALUES ('Филипп', 'mail.ru');
+UPDATE first_table SET email = 'google' WHERE id = '3';
+
+DELETE FROM first_table WHERE id = '4';
+
+SELECT * FROM first_table WHERE fname='$Сергей';
